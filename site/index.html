@@ -38,6 +38,14 @@
 <div>
 	<a  style="margin-top: 20px;" href="https://bhargab26.github.io/mk/site/">Click me</a>
 </div>
+<div class="center">
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="https://bhargab26.github.io/Birthday/site/">1</a>
+  <a href="https://bhargab26.github.io/bday/site/">2</a>
+  <a href="https://bhargab26.github.io/mk/site/">3</a>
+  <a href="https://bhargab26.github.io/mk/site/">&raquo;</a>
+</div>
 </body>
 <style>
 	body {
@@ -91,6 +99,30 @@ margin-top: 30px;
   display: inline-block;
 
 }
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+.pagination a {
+
+  color: black;
+  float: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
 
 		
 	}
